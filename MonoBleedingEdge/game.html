@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unity WebGL Game Embed</title>
+    <style>
+        /* 设置游戏容器的样式 */
+        #gameContainer {
+            width: 80%;
+            max-width: 800px; /* 根据您的需要调整宽度 */
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 的纵横比 */
+            height: 0;
+        }
+        #gameContainer iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="gameContainer">
+    <!-- 替换下面的URL为您的Unity WebGL游戏的URL -->
+    <iframe src="https://github.com/muluyuuu/FIRSTgame.github.io/tree/master/MonoBleedingEdge/game.html" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
